@@ -5,10 +5,10 @@ The final Web Applications project after working with Dr. Tatao Chuang, Professo
 Using HTML files, build dynamic PHP website complete with database in MySQL and shopping cart feature.  
 
 ## Developer Credit
-Xavier Collantes 
-Josh Cartwright 
-Josh Schacht 
-Ashley Martin 
+Xavier Collantes  <br/> 
+Josh Cartwright  <br/>
+Josh Schacht   <br/>
+Ashley Martin   <br/>
 
 
 
