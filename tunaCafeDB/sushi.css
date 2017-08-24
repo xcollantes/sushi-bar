@@ -1,0 +1,150 @@
+body {
+	font-family: Arial, Verdana, Garamond; 
+	font-size: 11pt; 
+	background-color: black
+	}
+
+h1,h2 {
+	color: white;
+
+	}
+
+a {
+	color: white
+	}
+	
+a:hover {
+	background: black; 
+	color: white;
+	}
+	
+img {
+	z-index: -1;
+	}
+	
+img:hover {
+	opacity: .3;
+	}
+	
+table {
+	border-color:white;
+	color:white; 
+	margin-left:auto; 
+	margin-right:auto
+	}
+td.right {
+	text-align: right;
+}
+
+th.center{
+	text-align: center;
+}
+
+td.left {
+	text-align: left;
+}
+
+td.center {
+	text-align: center;
+}
+
+.name {
+	font-family: cursive;
+	color: rgb(218,165,32)
+	}
+
+#menubar {
+	font-size: 13pt;
+	border: 4px solid black; 
+	background-color: black; 
+	color: white; 
+	height: 50 px
+	}
+
+.menu {
+	float: bottom; 
+	padding: 0.1em 3em 0.1em 0.5em;
+	cursor:default
+	}
+	
+.menu ul {
+	display: none; 
+	position: absolute; 
+	background-color:black; 
+	color: white;
+	list-style: none; 
+	margin: 0.1em 0 0 0: padding: 0
+	}
+	
+.menu ul li {
+	display: block; 
+	font-size: medium; 
+	padding: 0.2em
+	}
+
+div.menu:hover ul {margin: 0; 
+	padding: 0; 
+	display: block; 
+	border-bottom: .15em solid black; 
+	border-left: .15em solid white
+	}
+	
+div.menu ul li:hover {
+	background-color: black
+	}
+	
+div.content {
+	margin-left: 20 px; 
+	margin-right: 20 px; 
+	padding-top: 5%; 
+	color: white
+	}
+	
+
+	
+#top {
+	
+}
+		
+
+#tooltip1 {
+	position: relative;
+	} 
+	
+#tooltip1 a span {
+	display: none;
+	color: white;
+	visibility: hidden;
+	} 
+	
+#tooltip1 a:hover span {
+	visibility: visible;
+	display: block; 
+	position: relative; 
+	text-align: center; 
+	width: 275px; 
+	background-color: black; 
+	height: 0px; 
+	left: 10px; 
+	top: -200px; 
+	color: white; 
+	padding: 0px;
+	z-index: -1;
+	} 
+
+	/*
+#tooltip1 a span {
+	position:relative;
+	text-align: center;
+	bottom:200px;
+	right:50px;
+	left: -250px;
+	visibility:hidden;
+	display: relative;
+
+}
+
+#tooltip1 a:hover span {
+	visibility:visible;
+	
+} 	*/

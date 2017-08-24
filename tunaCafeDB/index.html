@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://barney.gonzaga.edu/~mricci/index.html,">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tsukushinbo Traditional Japanese Cuisine</title>
+	<link href="sushi.css" rel="stylesheet" type="text/css" />
+	<link href="navigation.css" rel="stylesheet" type="text/css" />
+	<link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet">
+	
+	<style>
+		.mySlides {
+			display:none;
+		}
+		
+		img:hover {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+
+
+<body>
+<div id='header' style='z-index: 2;'>
+<h1 style='text-align: center; margin-bottom:0'>Tsukushinbo Traditional Japanese Cuisine</h1>
+<br />
+	
+<nav id='primary_nav_wrap'>
+<ul>
+  <li><a href='index.html'>Home</a></li>
+  <li><a href='#'>Menu</a>
+    <ul>
+      <li><a href='listmenu.php'>List Menu</a></li>
+      <li><a href='sushimenu.html'>Sushi</a></li>
+      <li><a href='sashimimenu.html'>Sashimi/Nigiri</a></li>
+      <li><a href='sakimenu.html'>Sake</a></li>
+    </ul>
+  </li>
+  <li><a href='https://maps.google.com/maps?q=Tsukushinbo,+515+South+Main+Street,+Seattle,+WA&hl=en&sll=47.67284,-117.41215&sspn=0.262158,0.676346&oq=t&hq=Tsukushinbo,&hnear=515+S+Main+St,+Seattle,+King,+Washington+98104&t=m&z=16'>Location</a></li>
+  <li><a href='menuGenerator.php'>Order Online</a></li>
+</ul>
+</nav>
+
+</div>
+	
+<!--Slideshow-->
+<div class="w3-content" style="width:100%; height: 700px; position: relative z-index:1;">
+	<a href="sushimenu.html" alt="food"><img class='mySlides w3-round' src='image/slides/1.jpg' style='width:100%'></a>
+	<a href="sushimenu.html" alt="food"><img class='mySlides w3-round' src='image/slides/2.jpg' style='width:100%'></a>
+	<a href="sushimenu.html" alt="food"><img class='mySlides w3-round' src='image/slides/3.jpg' style='width:100%'></a>
+	<a href="sushimenu.html" alt="food"><img class='mySlides w3-round' src='image/slides/4.jpg' style='width:100%'></a>
+</div>
+
+	<script>
+		var slideIndex = 0;
+		go();
+
+		function go() 
+		{
+			var x = document.getElementsByClassName("mySlides");
+			for (var i = 0; i < x.length; i++) 
+			{
+				x[i].style.display = "none"; 
+			}
+			
+			slideIndex++;
+			
+			if (slideIndex > x.length) 
+			{
+				slideIndex = 1;
+			}
+			
+			x[slideIndex - 1].style.display = "block"; 
+			setTimeout(go, 3000); // Change image every seconds * 1000
+		}
+	</script>
+	
+	
+<!--Description-->
+		<br />
+		<br />
+		<br />
+		<br />
+<div id="content" style="background-color: black">
+<h2>Company Information</h2>
+	<span style="color:white; font-size:120%">
+	Welcome to Tsukushinbo Traditional Japanese Cuisine!  You will not find another Japanese restaurant like this in Seattle.  We specialize in making our sushi rolls with local fresh ingredients.  All of our vegetables are locally grown and all of our fish is flown in daily.  We also offer omakase, which means the chef will prepare something of his special choice for you!  Because we offer such a wide variety of fresh fish and fresh vegetables, our skillful chef can always make something unique.  If you love Japanese food, you have come to the right place!  Our fantastic selections of entrees, sushi, sashimi, and sake will make you fall in love with Japanese food and drinks.  We invite you to experience a warm, relaxing ambience.  We will  help guide you through your first visit with a passion for our food unlike anywhere else.
+	</span>
+	<br />
+	<br />
+	<div style="text-align: center">
+		<p style="color:white; font-size:120%">Please find the next biggest trend before any of your friends do - check our recent reviews</p>
+		<br />
+		<p style="color:white; font-size:120%">Hours of Operation: Mon - Thur 11:00am - 9:00pm <br /> Fri&Sat 12:00pm - 9:00pm<br /> Sun 12:00pm - 8:00pm</p>
+		<p style="color:white; font-size:120%">Accepted payment methods: Visa, Mastercard, Cash </p>
+	</div>
+</div>
+
+<h2>Reviews</h2>
+
+<ul style="color:white; font-size:120%">
+
+		<li>What a find! I was looking for sushi places near The HUB Seattle and found them. I did not have high expectations, and was blown away by the quality of the sushi and authenticity of the place. Having eaten in many similar small sushi places in Tokyo and Osaka, I can say with confidence that Tsukshinbo will not disappoint you.
+		<br /> <span class="name">- James Klein</span></li><br />
+
+		<li>Sit at the bar, enjoy friendly banter and watch a fantastic slicing and dicing show! The omakase is great, especially for sashimi. All the sushi is wonderful, excellent fresh fish very well prepared. Lots of wonderful small plates, as authentic as it gets. I get the deep fried mochi (agemochi) every time. Newly redesigned interior is a nice enhancement. It's a very casual, lively atmosphere which can get a crowded at peak times--perfect for enjoying another tall Sapporo and plenty of laughs with friends. Or for a lunchtime treat with co-workers, clients or anyone else you can use as an excuse to expense an awesome meal!
+		<br /><span class="name">-Carrie Rabusk</span></li><br />
+
+		<li>My new favorite place, and the only place I'll take my wife.
+		<br /><span class="name"> -Liam Ferrel</span></li></br />
+
+		<br />
+		<br />
+		</li>
+		
+		<!-- GOOGLE MAPS INTERACTIVE -->
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1460331834847!6m8!1m7!1sFYVwAbqQWihJ-otCLVDWgA!2m2!1d47.59993970583727!2d-122.326893829645!3f198.1842408705459!4f1.5591406448204737!5f0.7820865974627469" width="99%" height="700" frameborder="0" style="border:0;" align="middle" allowfullscreen></iframe>
+
+		
+		<div style="text-align: center"><a href= http://www.urbanspoon.com/r/1/2479/restaurant/International-District/Tsukushinbo-Seattle>Check us out on Urbanspoon </a></div>
+
+</ul>
+	<br />
+	<br />
+<div id="footer" style="background-color:black;clear:both;text-align:center;"><a href="https://maps.google.com/maps?q=Tsukushinbo,+515+South+Main+Street,+Seattle,+WA&hl=en&sll=47.67284,-117.41215&sspn=0.262158,0.676346&oq=t&hq=Tsukushinbo,&hnear=515+S+Main+St,+Seattle,+King,+Washington+98104&t=m&z=16">Located at 515 South Main Street, Seattle, WA</a>
+</div>
+</body>
+</html>
